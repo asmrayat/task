@@ -9,6 +9,7 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import PrivateRouter from "./private/PrivateRouter";
 import ProductDetails from "../Pages/ProductDetails";
+import AddProduct from "../Pages/AddProduct";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -46,11 +47,19 @@ export const router = createBrowserRouter([
    
     children: [
       {
-        path: "",
-        loader: () => fetch("http://localhost:3000/products"),
+        path: "/dashboard",
         element: (
           <PrivateRouter>
             <Deshboard />
+          </PrivateRouter>
+        ),
+      },
+      {
+        path: "add-product",
+        loader: () => fetch("http://localhost:3000/products"),
+        element: (
+          <PrivateRouter>
+            <AddProduct />
           </PrivateRouter>
         ),
       },

@@ -23,7 +23,10 @@ const DeshboardLayout = () => {
         <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
           {/* Sidebar content here */}
           <li>
-            <a>All Products</a>
+            <Link to={''}>All Products</Link>
+          </li>
+          <li>
+          <Link to={'add-product'}>Add Products</Link>
           </li>
           <li>
             <Link to={'/'}>Home</Link>
