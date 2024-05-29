@@ -1,0 +1,75 @@
+{
+    "products": [
+      {
+        "id": 101,
+        "name": "Smartphone",
+        "description": "Latest model smartphone with advanced features",
+        "price": 699.99,
+        "image_url": "https://example.com/images/smartphone.jpg"
+      },
+      {
+        "id": 102,
+        "name": "Laptop",
+        "description": "High-performance laptop for professionals",
+        "price": 1199.99,
+        "image_url": "https://example.com/images/laptop.jpg"
+      },
+      {
+        "id": 103,
+        "name": "Men's T-Shirt",
+        "description": "Comfortable cotton t-shirt",
+        "price": 19.99,
+        "image_url": "https://example.com/images/tshirt.jpg"
+      },
+      {
+        "id": 104,
+        "name": "Blender",
+        "description": "Multi-functional kitchen blender",
+        "price": 49.99,
+        "image_url": "https://example.com/images/blender.jpg"
+      },
+      {
+        "id": 105,
+        "name": "Headphones",
+        "description": "Noise-cancelling over-ear headphones",
+        "price": 199.99,
+        "image_url": "https://example.com/images/headphones.jpg"
+      },
+      {
+        "id": 106,
+        "name": "Coffee Maker",
+        "description": "Automatic drip coffee maker with timer",
+        "price": 89.99,
+        "image_url": "https://example.com/images/coffeemaker.jpg"
+      },
+      {
+        "id": 107,
+        "name": "Women's Jeans",
+        "description": "Stylish denim jeans for women",
+        "price": 49.99,
+        "image_url": "https://example.com/images/womensjeans.jpg"
+      },
+      {
+        "id": 108,
+        "name": "Smartwatch",
+        "description": "Water-resistant smartwatch with heart rate monitor",
+        "price": 149.99,
+        "image_url": "https://example.com/images/smartwatch.jpg"
+      },
+      {
+        "id": 109,
+        "name": "Microwave Oven",
+        "description": "Compact microwave oven with multiple settings",
+        "price": 129.99,
+        "image_url": "https://example.com/images/microwave.jpg"
+      },
+      {
+        "id": 110,
+        "name": "Running Shoes",
+        "description": "Lightweight running shoes for all terrains",
+        "price": 79.99,
+        "image_url": "https://example.com/images/runningshoes.jpg"
+      }
+    ]
+  }
+  
